@@ -1,0 +1,1 @@
+A Realty site similar to zillow or homes.com Uses front end and backend. The user will make an account and depending on their type of account, theyll be able to buy sell or browse properties. There's also an admin login. 
