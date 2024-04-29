@@ -1,0 +1,46 @@
+/* Form css */
+
+.form-container{
+    margin: auto;
+    border: 1px solid rgb(229 231 235 );
+    border-radius: 8px;
+    padding:24px;
+    width: 100%;
+    max-width: 24rem;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgb(229 231 235 );
+    margin-bottom: 40px;
+}
+
+.form-container h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.form-container form{
+    gap:16px
+}
+
+.input-container{
+    gap:8px
+}
+
+.input-container input{
+    padding: 10px;
+    background-color: rgb(249 250 251);;
+    border-radius: 8px;
+    border: 1px solid rgb(229 231 235 );
+}
+
+.input-container label{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-container select{
+    padding: 10px;
+    background-color: rgb(249 250 251);;
+    border-radius: 8px;
+    border: 1px solid rgb(229 231 235 );
+}

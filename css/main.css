@@ -1,0 +1,92 @@
+/* css resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 1.5;
+    height: 100vh;
+    background: linear-gradient(to bottom, #edf2f8, #ffffff); 
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+a:hover{
+    color: #1a56db;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+
+
+/* common css */
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* template css */
+nav {
+    padding: 16px;
+    border-bottom: 3px solid rgb(229 231 235);
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+nav ul{
+    gap:30px
+}
+
+.action-btn{
+
+    padding: 8px 16px;
+    background-color: #1a56db;
+    color: white;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.blue{
+    color: #1a56db;
+}
+
+
+

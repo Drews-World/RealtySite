@@ -1,0 +1,19 @@
+* main_template.php (see comments in that file)
+    -add dynamic header 
+    -add dynamic login/logout
+    -add logout with session_destroy()
+
+* home.php 
+    -still needs 'sales' content
+    -email needs to be passed as a url param and shown in sign_up.php
+
+* buyers_dashboard.php
+    - add model to DB 
+    - add homes to DB
+    - populate them on this page
+
+* register_user.php
+    - maybe additional validation? e.g. min length passwords, lowercase username, etc.
+
+
+** look over additional requirements from rubric, the above are just Off Of the top Of my head

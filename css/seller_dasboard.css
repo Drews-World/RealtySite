@@ -1,0 +1,69 @@
+
+  
+  /* Dashboard container styles */
+  .dashboard {
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 16px;
+  }
+  
+  .grid-item {
+    border: 1px solid #ccc; 
+    padding: 0px !important;
+  }
+  
+  .property-list {
+    margin-top: 20px; 
+  }
+
+  .circular-button {
+    width: 35px; 
+    height: 35px;
+    border-radius: 50%; 
+    border: none;
+    background-color: #007bff; 
+    color: white; 
+    font-size: 24px; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .circular-button:hover {
+    background-color: #0056b3; 
+  }
+
+  #propertyForm {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+  
+  #propertyForm.active {
+    height: auto;
+  }
+
+  .house-stat{
+    font-weight: 500;
+  }
+
+  .stat-container{
+   padding: 24px;
+   gap:8px;
+  }
+
+  .form-container img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  
+  
